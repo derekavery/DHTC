@@ -1,0 +1,67 @@
+.grid-container-top {
+  display: grid;
+  position: fixed;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 500px;
+  top: 45px;
+  width: 99%;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+  }
+  
+  .grid-item {
+   background-color: rgba(255, 255, 255, 0.8);
+   text-align: center;
+   line-height: 300px;
+   padding: 20px 0;
+   font-size: 50px;
+  }
+
+  .grid-container-bottom {
+  display: grid;
+  position: fixed;
+  grid-template-columns: auto auto;
+  grid-template-rows: 435px;
+  top: 550px;
+  width: 99%;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+  }
+
+  .platinum {
+    background-color: #E5E4E2;
+  }
+  .gold {
+    background-color: #D4AF37;
+  }
+  .silver {
+    background-color: #848482;
+  }
+  .bronze {
+    background-color: #CD7F32;
+  }
+  .tin {
+    background-color: #C9C0BB;
+  }
+
+  body {
+    margin:0;
+  }
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .buy-button{
+    position: relative;
+    top: -230px;
+  }
+
+  

@@ -1,0 +1,59 @@
+body {
+    margin: 0 0 0 0;
+    background-color: #a8aca8;
+}
+
+h1{
+    color: white
+}
+
+
+.your-card-div{
+    position: fixed;
+    top: 10%;
+    left: 4%;
+    height: 500px;
+    width: 750px;
+    text-align: center;
+    background-color: #073AB0;
+    text-align: center;
+}
+
+.friend-card-div{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    height: 500px;
+    width: 750px;
+    text-align: center;
+    background-color: #D6551E;
+    text-align: center;
+}
+
+.submit-card-div{
+    position: fixed;
+    top: 70%;
+    left: 41%;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #a8aca8;
+    text-align: center;
+    padding: 25px;
+}
+
+select {
+    padding: 15px 40px;
+    top: 10px; 
+    position: relative;
+}
+
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+  }

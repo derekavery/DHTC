@@ -1,0 +1,68 @@
+body {
+    margin: 0 0 0 0;
+    background-color: #EFE7DA;
+}
+
+.card-div{
+    position: fixed;
+    top: 10%;
+    left: 22%;
+    height: 500px;
+    width: 900px;
+    text-align: center;
+    background-color: #0B3948;
+    text-align: center;
+}
+
+.bottom-card-div{
+    position: fixed;
+    top: 68%;
+    left: 22%;
+    height: 200px;
+    width: 900px;
+    text-align: center;
+    background-color: #C3423F;
+    text-align: center;
+}
+
+.logout-card-div{
+    position: fixed;
+    top: 10%;
+    left: 80%;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    background-color: #61988E;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+}
+
+label {
+    color: white;
+}
+
+h1 {
+    color: white;
+}

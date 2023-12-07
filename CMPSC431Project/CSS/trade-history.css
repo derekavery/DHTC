@@ -1,0 +1,39 @@
+body{
+    margin: 0 0 0 0;
+    background-color: #a8aca8;
+}
+
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.card-div{
+    position: fixed;
+    top: 15%;
+    left: 26%;
+    height: 750px;
+    width: 750px;
+    text-align: center;
+    background-color: #E5E4E2;
+    text-align: center;
+}
+
+table{
+    overflow-y:scroll;
+    height:750px;
+    display:block;
+ }
+
+ h1{
+    position: fixed;
+    top: 4%;
+    left: 38%;
+    font-size: 55px;
+ }

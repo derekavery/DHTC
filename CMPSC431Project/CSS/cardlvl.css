@@ -1,0 +1,51 @@
+body {
+    margin: 0 0 0 0;
+    background-image: url("https://epe.brightspotcdn.com/e3/3e/0faf6148447e810606eadf4b3316/path-career-choice-1136787467-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+.card-div{
+    position: fixed;
+    top: 10%;
+    left: 26%;
+    height: 350px;
+    width: 750px;
+    text-align: center;
+    background-color: #09279C;
+    text-align: center;
+}
+
+select {
+    padding: 15px 40px;
+    top: 10px; 
+    position: relative;
+}
+
+.container {
+    padding: 25px 20px;
+}
+
+button {
+    background-color: #FFDD33;
+    color: black;
+    top: 50px; 
+    position: relative;
+    font-size: 30px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  }
+
+  button:hover {
+    box-shadow: inset 500px 0 0 0 #04AA6D;
+    color: black;
+}

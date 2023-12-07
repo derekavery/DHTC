@@ -1,0 +1,87 @@
+.div-p{
+    position:fixed;
+    top:48px;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/56/71/IDPdA5.jpg);
+    background-size: cover;
+}
+
+.card-div-plat{
+    position: fixed;
+    top: 15%;
+    left: 26%;
+    height: 750px;
+    width: 750px;
+    text-align: center;
+    background-color: #E5E4E2;
+    text-align: center;
+}
+
+.card-div-gold{
+    position: fixed;
+    top: 15%;
+    left: 26%;
+    height: 750px;
+    width: 750px;
+    text-align: center;
+    background-color: #D4AF37;
+    text-align: center;
+}
+
+.card-div-silver{
+    position: fixed;
+    top: 15%;
+    left: 26%;
+    height: 750px;
+    width: 750px;
+    text-align: center;
+    background-color: #848482;
+    text-align: center;
+}
+
+.card-div-bronze{
+    position: fixed;
+    top: 15%;
+    left: 26%;
+    height: 750px;
+    width: 750px;
+    text-align: center;
+    background-color: #CD7F32;
+    text-align: center;
+}
+
+.card-div-tin{
+    position: fixed;
+    top: 15%;
+    left: 26%;
+    height: 750px;
+    width: 750px;
+    text-align: center;
+    background-color: #C9C0BB;
+    text-align: center;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+body {
+    margin: 0 0 0 0;
+  }
+
+.player-name{
+    line-height: 200px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.player-num{
+    font-size: 80px;
+    text-align: center;
+}

@@ -1,0 +1,95 @@
+body {
+    margin: 0 0 0 0;
+    background-color: #a8aca8;
+}
+
+.text-white{
+    color:white;
+}
+
+.friend-card-div{
+    position: fixed;
+    top: 10%;
+    left: 4%;
+    height: 350px;
+    width: 750px;
+    text-align: center;
+    background-color: #395B50;
+    text-align: center;
+}
+
+.defriend-card-div{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    height: 350px;
+    width: 750px;
+    text-align: center;
+    background-color: #D1603D;
+    text-align: center;
+}
+
+.trade-card-div{
+    position: fixed;
+    top: 55%;
+    left: 21%;
+    height: 350px;
+    width: 950px;
+    text-align: center;
+    background-color: #222A68;
+    text-align: center;
+}
+
+.trade-history-card-div{
+    position: fixed;
+    top: 55%;
+    left: 77%;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    background-color: #EDCB96;
+    text-align: center;
+}
+
+.text-black{
+    color:black;
+}
+
+select {
+    padding: 15px 40px;
+    top: 10px; 
+    position: relative;
+}
+
+.container {
+    padding: 25px 20px;
+}
+
+button {
+    background-color: #FFDD33;
+    color: black;
+    top: 50px; 
+    position: relative;
+    font-size: 30px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  }
+
+.friend-button:hover {
+    box-shadow: inset 500px 0 0 0 #04AA6D;
+    color: black;
+}
+
+.unfriend-button:hover {
+    box-shadow: inset 500px 0 0 0 #CE2029;
+    color: black;
+}
+
+.trade-button:hover {
+    box-shadow: inset 500px 0 0 0 #1654A6;
+    color: black;
+}

@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    width:100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .nav-element-right  {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    width:150px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  }
+
+  .nav-element-left  {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    width:100px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  }
+
+  .info-element  {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    width:150px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .nav-element-left:hover {
+    box-shadow: inset 500px 0 0 0 #b9b8b4;
+    color: black;
+  }
+
+  .nav-element-right:hover {
+    box-shadow: inset 500px 0 0 0 #b9b8b4;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .nav-element-left.active {
+    background-color: #FFDD33;
+    color: black;
+  }
+
+.grid-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 500px;
+    top: 45px;
+    width: 99%;
+    gap: 10px;
+    padding: 10px;
+    }
+    
+    .grid-item-plat {
+     background-color: #E5E4E2;
+     text-align: center;
+     left: 50px;
+     padding: 20px 0;
+    }
+
+    .grid-item-gold {
+        background-color: #D4AF37;
+        text-align: center;
+        left: 50px;
+        padding: 20px 0;
+        font-size: 50px;
+    }
+
+    .grid-item-silver {
+        background-color: #848482;
+        text-align: center;
+        left: 50px;
+        padding: 20px 0;
+        font-size: 50px;
+    }
+
+    .grid-item-bronze {
+        background-color: #CD7F32;
+        text-align: center;
+        left: 50px;
+        padding: 20px 0;
+        font-size: 50px;
+    }
+
+    .grid-item-tin {
+        background-color: #C9C0BB;
+        text-align: center;
+        left: 50px;
+        padding: 20px 0;
+        font-size: 50px;
+    }
+
+    .player-name{
+        position:relative;
+        left: 80px;
+        top: 15px;
+        font-size: 35px;
+        text-align: center;
+        width: 400px;
+        height: 70px;
+    }
+
+    .player-num{
+        position:relative;
+        left: 150px;
+        top: 15px;
+        font-size: 30px;
+        text-align: center;
+        width: 250px;
+        height: 80px;
+    }
+
+    .player-team{
+        position:relative;
+        left: 80px;
+        top: 15px;
+        font-size: 30px;
+        text-align: center;
+        width: 400px;
+        height: 70px;
+    }
+
+    .player-info{
+        position:relative;
+        left: 170px;
+        top: 15px;
+        font-size: 20px;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+    }
+    
+    .card-type{
+        position:relative;
+        left: 15px;
+        top: 0px;
+        font-size: 25px;
+        text-align: center;
+        width: 20px;
+        height: 10px;
+    }
+
+    .card-quantity{
+      position:relative;
+      left: 450px;
+      top: 0px;
+      font-size: 25px;
+      text-align: center;
+      width: 90px;
+      height: 10px;
+  }
+
+  .card-lvl{
+    position:relative;
+    left: 240px;
+    top: 0px;
+    font-size: 25px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+}

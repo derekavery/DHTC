@@ -1,0 +1,64 @@
+  body {
+    margin: 0 0 0 0;
+  }
+
+  .sector {
+    width: 50%;
+    height: 50%;
+    position: fixed;
+  }
+  
+  #NW { top: 45px; left: 0;  
+    background-image: url("https://media.istockphoto.com/id/671231824/fi/valokuva/j%C3%A4%C3%A4kiekkostadionin-3d-renderointi.jpg?s=612x612&w=0&k=20&c=gtubTXrbv0mH6nol2LBVLU73k-KyelsLqwQN-n2ipHs=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #555;
+ }
+
+  #NE { top: 45px; left: 50%;
+    background-image: url("https://banner2.cleanpng.com/20180425/hae/kisspng-safe-bank-clip-art-5ae10314414277.7350599815246958282673.jpg");
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+    background-position: center;
+    border: 5px solid #555;
+ }
+
+  #SW { top: 55%; left: 0;   
+    background-image: url("https://png.pngtree.com/png-clipart/20230913/original/pngtree-bonfire-clipart-cartoon-fire-pit-from-outdoors-made-of-stone-and-png-image_11067489.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border: 5px solid #555;
+}
+
+  #SE { top: 55%; left: 50%; 
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/622/179/non_2x/crowd-people-silhouette-icon-illustration-social-icon-flat-style-design-user-group-network-enterprise-team-group-community-member-icon-business-team-work-activity-user-icon-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    border: 5px solid #555;
+}
+
+  .links {
+    text-align: center;
+    margin:auto;
+    line-height:400px;
+    font-size: 100px;
+    color: black;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    background-color: white;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    opacity: 0.8;
+  }
+
+  div{
+    text-align: center
+  }
+
+  .links:hover {
+    opacity: 1;
+    box-shadow: inset 500px 0 0 0 #FFDD33;
+    color: black;
+  }
